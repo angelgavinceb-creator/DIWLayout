@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
+
+nav *{
+    margin-right: 2vh;
+}
+
+nav img:first-of-type{
+    height: 5vh;
+}
+
+.imagenLupa{
+    height: 2vh;
+    cursor: pointer;
+}
+
+.probar{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+

@@ -1,0 +1,49 @@
+.marcoBoton{
+    height: 8vh;
+    width: 24vh;
+
+    display: flex;
+    background-size: contain;
+    align-items: center;
+
+    background-image: url("../art/cieloDia.jpg");
+    border-radius: 4vh;
+
+}
+
+.circuloBoton{
+    height: 6vh;
+    width: 6vh;
+    background-color: white;
+
+    border-radius: 50%;
+    border: black solid 0.2vh;
+    margin: 0.5vh;
+}
+
+.animacionMoverDerecha{
+    animation: moverDerecha 0.2s linear;
+}
+
+.animacionMoverIzquierda{
+    animation: moverIzquierda 0.2s linear;
+}
+
+.desplazar{
+    display: flex;
+    background-size: contain;
+    align-items: center;
+    justify-content: right;
+}
+
+@keyframes moverDerecha {
+     100% {transform: translate(270%, 0%);}
+}
+
+@keyframes moverIzquierda {
+     100% {transform: translate(-270%, 0%);}
+}
+
+.botonModoOscuro{
+    background-image: url("../art/cieloNoche.avif");
+}

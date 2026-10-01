@@ -1,0 +1,52 @@
+body{
+    background-image: url("../art/imagenfondoclaro2");
+    background-size:cover;
+}
+
+.contenedorFormulario{
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, 15%);
+
+    height: 85vh;
+    width: 90vw;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2vh;
+}
+
+.contenedorFormulario::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../art/imagenfondoclaro2");
+    background-size:cover;
+    filter: blur(20px) grayscale(100%) brightness(0.9);
+    z-index: -1;
+}
+
+.contenedorFormulario div{
+    display: grid;
+
+    justify-self: start;
+    align-self: start;
+
+    margin-left: 27.5%;
+    margin-top: 15%;
+}
+
+.inputForm{
+    height: 3vh;
+    width: 20vw;
+    border-radius: 1vh;
+}
+
+

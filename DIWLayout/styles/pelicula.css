@@ -1,0 +1,60 @@
+body{
+    background-image: url("../art/imagenfondoclaro2");
+    background-size:cover;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    border-radius: 1vh;
+    background-color: brown;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    font-size: 2vh;
+    padding: 2vh;
+    color: whitesmoke;
+}
+
+.contenedorInformacion{
+    margin-left: 10vh;
+}
+
+.contenedorInformacion div{
+    margin-bottom: 1vh;
+}
+
+.contenido img{
+    height: 50vh;
+    width: auto;
+    border-radius: 1vh;
+}
+
+.separacion{
+    position: absolute;
+    margin-top: 10vh;
+    left: 15%;
+    width: 70vw;
+    height: 1vh;
+    border-radius: 1vh;
+    background-color: rgb(141, 141, 141);
+}
+
+.discusion{
+    position: absolute;
+    margin-top: 20vh;
+    left: 10%;
+    width: 80vw;
+    height: auto;
+    padding: 1vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    background-color: rgb(255, 168, 168);
+}
+
+h2{
+    margin-left: 36vw;
+}
+
+.comentarios{
+    margin-top: 5vh;
+}

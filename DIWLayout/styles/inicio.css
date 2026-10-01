@@ -1,0 +1,96 @@
+body{
+    background-image: url("../art/imagenfondoclaro2");
+    background-size:cover;
+    font-family: Verdana;
+}
+
+header{
+    height: 3vw;
+}
+
+.contenido{
+  font-size: 2vh;
+}
+
+h2{
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  margin-left: 5vw;
+}
+  .carrusel {
+    position: relative;
+    left: 5vw;
+    right: 5vw;
+    height: 35vh;
+    width: 90vw;
+    overflow-x: hidden;
+    background-color: rgb(27, 27, 31);
+    border-radius: 1vh;
+  }
+
+  .carrusel:hover .arrow{
+    opacity: 1;
+  }
+
+  .peliculas {
+    display: flex;
+    position: absolute;
+    top: 2.5vh;
+    left: 1vh;
+    transition: transform 0.5s ease;
+
+  }
+
+.pelicula{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative;
+  margin-right: 10px;
+}
+
+  .pelicula img {
+    height: 30vh;
+    width: auto;
+    display: block;
+    border: solid rgb(197, 197, 197) 0.1vh;
+    border-radius: 1vh;
+  }
+
+  .descripcion{
+    display:none;
+    position: absolute;
+    top: -5%;
+    left: 100%;
+    height: auto;
+    width: 40vw;
+    border-radius: 1vh;
+    background-color: whitesmoke;
+    border: solid rgb(197, 197, 197) 0.2vh;
+    padding: 1vh;
+    z-index: 20;
+  }
+
+
+  .arrow {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 4vh;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .arrow-left {
+    left: 0;
+  }
+
+  .arrow-right {
+    right: 0;
+  }
+

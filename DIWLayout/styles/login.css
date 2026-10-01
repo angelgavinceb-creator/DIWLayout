@@ -1,0 +1,50 @@
+body{
+    background-image: url("../art/imagenfondoclaro2");
+    background-size:cover;
+    font-family: Verdana;
+}
+
+.tarjetaRegistro{
+    position: absolute;
+    top: 5vh;
+    left: 34vw;
+    height: 80vh;
+    width: 30vw;
+    background-color: rgb(146, 145, 207);
+    padding: 3vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+}
+
+h2{
+    position: absolute;
+    top: 3%;
+    left: 43%;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 5vw;
+    height: 60vh;
+    width: 20vw;
+    padding: 3vh;
+    border-radius: 1vh;
+    background-color: rgb(108, 106, 180);
+}
+
+.campos input{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.campos label{
+    margin-top: 5vh;
+}
+
+.login{
+    margin-top: 4vh;
+}
